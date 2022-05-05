@@ -25,6 +25,10 @@ Rails.application.routes.draw do
   resource :about do
     root to:'about#index'
   end
+
+  resource :user do
+    root to:'users#new'
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
