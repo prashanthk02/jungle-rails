@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'about/index'
   get 'static_pages/help'
   get 'static_pages/faq'
   get 'static_pages/about'
@@ -20,6 +21,9 @@ Rails.application.routes.draw do
     resources :products, except: [:edit, :update, :show]
   end
 
+  resource :about do
+    root to:'about#index'
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
