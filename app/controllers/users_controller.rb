@@ -9,6 +9,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
+      flash.now[:alert] = 'Please fill required fileds and Password must be 3 chars minimum'
       redirect_to '/users'
     end
   end
