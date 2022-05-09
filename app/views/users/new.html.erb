@@ -1,4 +1,4 @@
-<h1>Signup!</h1>
+<h1>User Registration!</h1>
 <div class="form-group">
   <%= form_for :user, url: '/users' do |f| %>
 
@@ -8,7 +8,7 @@
     Password: <%= f.password_field :password, class:"form-control" %>
     Password Confirmation: <%= f.password_field :password_confirmation, class:"form-control" %>
     <br>
-    <%= f.submit "Submit", class:"btn btn-primary" %>
+    <%= f.submit "Register", class:"btn btn-primary" %>
 
   <% end %>
 </div>
