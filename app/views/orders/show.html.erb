@@ -9,6 +9,7 @@
       <tr>
         <th>Product</th>
         <th>Name</th>
+        <th>Description</th>
         <th>Price</th>
         <th>Quantity</th>
         <th>Total Price</th>
@@ -20,7 +21,7 @@
   </table>
 
   <div class="order-summary jumbotron">
-    <h4> Order Total: <%= humanized_money_with_symbol @order.total_cents/100 %> </h4>
+    <h4> Your order total is <%= humanized_money_with_symbol @order.total_cents/100 %> </h4>
     <h4>Thank you for your order!</h4>
     <h6> Order confirmation will be sent to <%= @order.email %> </h6>
   </div>
