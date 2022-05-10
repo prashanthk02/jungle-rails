@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/products'
     else
-      flash.now[:alert] = 'Invalid email or password'
+      flash[:alert] = 'Invalid credentials'
       redirect_to '/sessions/new'
     end
   end

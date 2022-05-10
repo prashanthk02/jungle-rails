@@ -1,4 +1,13 @@
 <h1>User Registration!</h1>
+
+<% if flash[:error] %>
+  <div class="alert alert-danger">
+    <% flash[:error].each do |e| %>
+      <li><%= e %></li>
+    <% end %>
+  </div>
+<% end %>
+
 <div class="form-group">
   <%= form_for :user, url: '/users' do |f| %>
 

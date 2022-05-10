@@ -1,5 +1,9 @@
 <h1>Login</h1>
 
+<% if flash[:alert] %>
+  <div class="alert alert-danger"><%= flash[:alert] %></div>
+<% end %>
+
 <div class="form-group">
   <%= form_tag '/sessions' do %>
 
