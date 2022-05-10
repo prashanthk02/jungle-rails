@@ -4,7 +4,10 @@ A mini e-commerce application built with Rails 6.1 for purposes of learning Ruby
 Using existing code base, implemented new features and styles as required such as add sold out badge for products with 0 quantity, allow admin to add more categories, enhance empty cart and order details page,implent about route, add admin and user authentication.
 
 # Screenshots
-[]()
+!['home page'](https://github.com/prashanthk02/jungle-rails/blob/master/docs/home.png?raw=true)
+!['sold out badge'](https://github.com/prashanthk02/jungle-rails/blob/master/docs/Sold_out.png?raw=true)
+!['login page'](https://github.com/prashanthk02/jungle-rails/blob/master/docs/Login_page.png?raw=true)
+!['cart payment'](https://github.com/prashanthk02/jungle-rails/blob/master/docs/Cart_payment.png?raw=true)
 
 ## Setup
 
