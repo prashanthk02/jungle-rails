@@ -1,9 +1,9 @@
 # Jungle
 
 A mini e-commerce application built with Rails 6.1 for purposes of learning Ruby.
-Using existing code base, implemented new features and styles as required such as add sold out badge for products with 0 quantity, allow admin to add more categories, enhance empty cart and order details page,implent about route, add admin and user authentication.
+Using existing code base, implemented new features and styles as required such as add sold out badge for products with 0 quantity, allow admin to add more categories, enhance empty cart and order details page,implent about route, add admin and user authentication. Tested using Rspec and cypress.
 
-# Screenshots
+## Screenshots
 !['home page'](https://github.com/prashanthk02/jungle-rails/blob/master/docs/home.png?raw=true)
 !['sold out badge'](https://github.com/prashanthk02/jungle-rails/blob/master/docs/Sold_out.png?raw=true)
 !['login page'](https://github.com/prashanthk02/jungle-rails/blob/master/docs/Login_page.png?raw=true)
@@ -29,6 +29,10 @@ If Rails is complaining about authentication to the database, uncomment the user
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
+
+## Testing
+* Rspec
+* Cypress
 
 ## Dependencies
 
